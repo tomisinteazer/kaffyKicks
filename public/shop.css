@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.77), #000000), url(pic1.jpg);
+}
+
+img {
+    padding: 0 6px;
+    padding-bottom: 10px;
+    float: left;
+    width: 18.99999%;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    img {
+        width: 45.999999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    img {
+        width: 100%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    img {
+        width: 46%;
+    }
+}

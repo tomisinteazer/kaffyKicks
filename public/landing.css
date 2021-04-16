@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url("qwe.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Helveticla, "Trebuchet MS", Verdana, sans-serif;
+    font-variant: small-caps;
+    box-shadow: 0px 0px 20px 4px black;
+}
+
+li {
+    float: right;
+}
+
+ul {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-image: radial-gradient(circle at center, rgba(255, 0, 0, 0), #f1c10d);
+    color: #001c41;
+}
+
+.active {
+    /* background-image: linear-gradient(to right, rgb(4, 208, 214), hsl(346, 87%, 53%)); */
+    background-image: radial-gradient(circle at center, rgba(255, 0, 0, 0), #f1c10d);
+    color: #fff;
+}
+
+.contact {
+    background-image: linear-gradient(to right, rgba(1, 26, 56, 0), #f1c10d);
+}
+
+#body {
+    margin-top: 60px;
+}
+
+.center {
+    text-align: left;
+    padding-top: -120px;
+    position: absolute;
+    font-size: 80px;
+    font-family: monospace;
+    font-variant: small-caps;
+
+    color: #fff;
+
+    /* border-bottom: 2px solid #ededed; */
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    /* text-decoration: overline #ededed; */
+}
+
+.min {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    /* border-bottom: 2px solid #ededed; */
+    text-align: left;
+    font-size: 50px;
+    font-family: monospace;
+    font-variant: small-caps;
+    color: #ffffff;
+    padding-top: 20%;
+    font-weight: lighter;
+    /* text-decoration: overline #001c41; */
+}
+
+.img {
+    border-radius: 160px;
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    width: 20%;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .min {
+        font-size: 45px;
+        top: 50%;
+        left: 28%
+    }
+
+    .center {
+        top: 50%;
+        left: 28%;
+        font-size: 85px;
+
+    }
+
+
+    body {
+
+        background-image: url("copy.jpg");
+        background-color: #222;
+    }
+
+    .img {
+        width: 29%;
+        left: 40%;
+        top: 12%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .min {
+        font-size: 35px;
+        top: 55%;
+        left: 16%
+    }
+
+    .center {
+        top: 50%;
+        left: 15%;
+        font-size: 65px;
+    }
+
+    body {
+
+        background-image: url("copy.jpg");
+
+        background-color: #222;
+    }
+
+    .img {
+
+
+        left: 35%;
+        top: 12%;
+    }
+
+    li a {
+        padding: 14px 11px;
+    }
+
+    ul {
+        font-family: monospace;
+        font-size: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width: 550px) {
+    .min {
+        font-size: 25px;
+        top: 55%;
+        left: 15%
+    }
+
+    .center {
+        top: 50%;
+        left: 15%;
+        font-size: 47px;
+
+    }
+
+    .img {
+        width: 35%;
+
+
+        left: 30%;
+        top: 25%;
+    }
+
+    ul {
+        font-family: monospace;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .min {
+        font-size: 25px;
+        top: 55%;
+        left: 14%
+    }
+
+    .center {
+        top: 50%;
+        left: 14%;
+        font-size: 44px;
+
+
+    }
+
+    .img {
+
+
+        left: 30%;
+        top: 27%;
+    }
+
+    li a {
+
+        padding: 14px 11px;
+
+
+    }
+
+    ul {
+        font-family: monospace;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .min {
+        font-size: 20px;
+        top: 55%;
+        left: 15%
+    }
+
+    .center {
+        top: 52%;
+        left: 15%;
+        font-size: 35px;
+
+    }
+
+    .img {
+
+
+        left: 30%;
+        top: 28%;
+    }
+
+    li a {
+
+        padding: 14px 11px;
+
+
+    }
+
+    ul {
+        font-family: monospace;
+        font-size: 12px;
+    }
+}
+
+.mybtn {
+    border: 3px solid #fff;
+    padding-left: 8px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.act {
+    border: 2px solid #fff;
+    border-radius: 7px;
+}
